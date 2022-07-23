@@ -1,0 +1,27 @@
+{
+  "name": "cypress_cucumber",
+  "version": "1.0.0",
+  "description": "cypress cucumber UI automation framework",
+  "main": "index.js",
+  "scripts": {
+    "run:non-headless": "cypress open",
+    "run:headless": "cypress run"
+  },
+  "keywords": [],
+  "author": "NVK PAVANKUMAR",
+  "license": "ISC",
+  "dependencies": {
+    "cypress": "^9.7.0",
+    "cypress-cucumber-preprocessor": "^4.3.1",
+    "multiple-cucumber-html-reporter": "^1.21.4"
+  },
+  "cypress-cucumber-preprocessor": {
+    "cucumberJson": {
+      "generate": true,
+      "outputFolder": "cypress/cucumber-json",
+      "filePrefix": "",
+      "fileSuffix": ".cucumber"
+    },
+    "nonGlobalStepDefinitions": true
+  }
+}

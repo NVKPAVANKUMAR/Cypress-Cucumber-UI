@@ -1,0 +1,63 @@
+[
+  {
+    "description": "    I want to login into the site",
+    "keyword": "Feature",
+    "name": "Login Functionality Check",
+    "line": 1,
+    "id": "login-functionality-check",
+    "tags": [],
+    "uri": "Login.feature",
+    "elements": [
+      {
+        "id": "login-functionality-check;login-with-valid-credentials",
+        "keyword": "Scenario",
+        "line": 5,
+        "name": "Login with valid credentials",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "User navigate to the Website",
+            "result": {
+              "status": "passed",
+              "duration": 3367000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 7,
+            "name": "User enter valid username and password",
+            "result": {
+              "status": "passed",
+              "duration": 656000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 8,
+            "name": "User clicks on login button",
+            "result": {
+              "status": "passed",
+              "duration": 4087000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 9,
+            "name": "validate the title after login",
+            "result": {
+              "status": "passed",
+              "duration": 9000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
